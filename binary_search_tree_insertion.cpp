@@ -4,7 +4,7 @@
 //	Can Yuva
 //	github.com/canyuva
 
-// Ýkili Arama Aðaçlarýnda Veri Ekleme
+// Ikili Arama Agaclarinda Veri Ekleme
 // The Insertion Values on Binary Search Trees
 
 struct node {
@@ -13,7 +13,8 @@ struct node {
 };
 
 
-// Yeni agac olusturuyoruz // Creating new tree
+// Yeni agac olusturuyoruz 
+// Creating new tree
 struct node *newNode(int item){
 	struct node *temp = (struct node*)malloc(sizeof(struct node));
 	temp->data = item;
@@ -37,7 +38,7 @@ void preorder(struct node *root){
 // Gelen verileri node'dan kucukse sol yapraga, buyukse sag yapraga, node bossa newNode'u cagirip kok olusturuyoruz
 
 // If the datas are smaller than the node left leaf, if they are bigger to right leaf. 
-//If node is empty, then we are calling newNode and creating the root..
+// If node is empty, then we are calling newNode and creating the root..
 
 struct node *insert(struct node *node, int data){
 	if(node==NULL){
