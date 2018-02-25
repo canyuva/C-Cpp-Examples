@@ -1,4 +1,4 @@
-# C-Examples
-Some examples for C language
+# C-Cpp-Examples
+Some examples for C & Cpp language
 
-C dilinde yapmış olduğum  küçük programlar..
+C ve Cpp dilinde yapmış olduğum  küçük programlar..
